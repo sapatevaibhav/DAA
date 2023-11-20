@@ -7,7 +7,7 @@ int max(int x, int y) {
     return (x > y) ? x : y;
 }
 
-int knapSack(int C, int w[], int p[], int n) {
+int knapSack(int C, int w[], int p[], int n) { 
     int A[n + 1][C + 1];
 
     for (int i = 0; i <= n; i++) {

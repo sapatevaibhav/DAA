@@ -65,5 +65,3 @@ int main() {
     nq.solveQueens(board, 0);
     return 0;
 }
-
-
